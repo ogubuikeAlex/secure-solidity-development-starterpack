@@ -1,13 +1,49 @@
-# Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+# Solidity Development Starter File
 
-Try running some of the following tasks:
+This is a starter file to get you started on writing secure smart contracts.
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+I became tired of always setting up projects from scratch and so I created this starter file to speed up my development process.
+
+## Tech Stack
+
+- **Hardhat**
+- **EtherJS**
+- **Slither**
+- **Ethereum security Toolbox by Trail Of Bits**
+- **Openzeppelin Contracts**
+- **Chainlink Contracts**
+- **@nomicfoundation/hardhat-toolbox**
+- **@nomiclabs/hardhat-etherscan**
+- **hardhat-contract-sizer**
+- **hardhat-gas-reporter**
+- **prettier-plugin-solidity**
+    
+## Run Locally
+
+Fork the project
+
+Clone the project
+
+```bash
+  git clone https://github.com/king-Alex-d-great/secure-solidity-development-starterpack.git
 ```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Test
+
+```bash
+  npx hardhat test
+```
+
