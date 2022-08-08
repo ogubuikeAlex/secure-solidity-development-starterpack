@@ -1,0 +1,45 @@
+{
+  "name": "secure-solidity-dev-starter-pack",
+  "version": "1.0.0",
+  "description": "I am tired of having to setup projects everytime, so i am creating this template to be a starter file for all other projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "slither": "slither . --solc-remaps '@openzeppelin=node_modules/@openzeppelin @chainlink=node_modules/@chainlink' --exclude naming-convention,external-function,low-level-calls",
+    "toolbox": "docker run -it --rm -v $PWD:/src trailofbits/eth-security-toolbox",
+    "lint": "solhint 'contracts/*.sol'",
+    "lint:fix": "solhint 'contracts/**/*.sol' --fix",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/king-Alex-d-great/secure-solidity-development-starterpack.git"
+  },
+  "keywords": [
+    "solidity",
+    "smart-contract",
+    "starter-file",
+    "security",
+    "OgubuikeAlex"
+  ],
+  "author": "Ogubuike Alexandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/king-Alex-d-great/secure-solidity-development-starterpack/issues"
+  },
+  "homepage": "https://github.com/king-Alex-d-great/secure-solidity-development-starterpack#readme",
+  "devDependencies": {
+    "@chainlink/contracts": "^0.4.2",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",    
+    "@openzeppelin/contracts": "^4.7.2",
+    "dotenv": "^16.0.1",
+    "hardhat": "^2.10.1",
+    "hardhat-contract-sizer": "^2.6.1",
+    "hardhat-gas-reporter": "^1.0.8",
+    "prettier-plugin-solidity": "^1.0.0-beta.24"
+  },
+  "dependencies": {
+    "ethers": "^5.6.9"
+  }
+}
