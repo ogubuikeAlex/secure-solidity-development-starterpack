@@ -21,7 +21,7 @@ I became tired of always setting up projects from scratch and so I created this 
 
 ## Related
 
-Here are some related projects
+Here are some related topics
 
 [How To Install Slither](https://medium.com/@ogubuikealex/how-to-install-slither-for-smart-contract-security-testing-cbf058c18e10)
 
