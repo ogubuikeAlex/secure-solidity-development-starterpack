@@ -23,7 +23,7 @@ I became tired of always setting up projects from scratch and so I created this 
 
 Here are some related projects
 
-[Install Slither](https://medium.com/@ogubuikealex/how-to-install-slither-for-smart-contract-security-testing-cbf058c18e10)
+[How To Install Slither](https://medium.com/@ogubuikealex/how-to-install-slither-for-smart-contract-security-testing-cbf058c18e10)
 
 
 
