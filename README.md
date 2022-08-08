@@ -25,8 +25,6 @@ Here are some related projects
 
 [How To Install Slither](https://medium.com/@ogubuikealex/how-to-install-slither-for-smart-contract-security-testing-cbf058c18e10)
 
-
-
 ## Run Locally
 
 Fork the project
@@ -54,5 +52,15 @@ Test
 To run tests, run the following command
 ```bash
   npx hardhat test
+```
+To run slither on your smart contracts
+```bash
+  slither .
+```
+To run ethereum-toolbox on your smart contracts
+First setup docker
+
+```bash
+  npm run toolbox
 ```
 
