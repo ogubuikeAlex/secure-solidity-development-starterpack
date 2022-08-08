@@ -18,7 +18,15 @@ I became tired of always setting up projects from scratch and so I created this 
 - **hardhat-contract-sizer**
 - **hardhat-gas-reporter**
 - **prettier-plugin-solidity**
-    
+
+## Related
+
+Here are some related projects
+
+[Install Slither](https://medium.com/@ogubuikealex/how-to-install-slither-for-smart-contract-security-testing-cbf058c18e10)
+
+
+
 ## Run Locally
 
 Fork the project
@@ -43,6 +51,7 @@ Install dependencies
 
 Test
 
+To run tests, run the following command
 ```bash
   npx hardhat test
 ```
