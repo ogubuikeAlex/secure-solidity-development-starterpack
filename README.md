@@ -27,7 +27,7 @@ Here are some related topics
 
 ## Run Locally
 
-Fork the project
+Fork the project (So that you can get updates for it)
 
 Clone the project
 
