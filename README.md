@@ -1,7 +1,7 @@
 
 # Solidity Development Starter File
 
-This is a starter file to get you started on writing secure smart contracts.
+This is a starter template to get started on writing **SECURITY-CONCIOUS** smart contracts.
 
 I became tired of always setting up projects from scratch and so I created this starter file to speed up my development process.
 
@@ -25,42 +25,40 @@ Here are some related topics
 
 [How To Install Slither](https://medium.com/@ogubuikealex/how-to-install-slither-for-smart-contract-security-testing-cbf058c18e10)
 
-## Run Locally
+## How To Use
 
-Fork the project (So that you can get updates for it)
-
-Clone the project
+- Install via the command line
 
 ```bash
-  git clone https://github.com/king-Alex-d-great/secure-solidity-development-starterpack.git
+  npm install @king-alex-d-great/secure-solidity-development-starterpack@1.0.0
 ```
+or via package.json
 
-Go to the project directory
+```json
+ "@king-alex-d-great/secure-solidity-development-starterpack": "1.0.0"
+```
+or fork and clone the project
 
 ```bash
-  cd my-project
+  git clone https://github.com/YOUR-USERNAME/secure-solidity-development-starterpack.git
 ```
-
-Install dependencies
+- Install dependencies
 
 ```bash
   npm install
 ```
 
-Test
-
-To run tests, run the following command
+- Run Test
 ```bash
   npx hardhat test
 ```
-To run slither on your smart contracts
+- To run slither on your smart contracts
 ```bash
   slither .
 ```
-To run ethereum-toolbox on your smart contracts
-First setup docker
+- To run ethereum-toolbox on your smart contracts
+Please Note that you should have `docker` set up first before you can run the command below
 
 ```bash
   npm run toolbox
 ```
-
