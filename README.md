@@ -30,12 +30,12 @@ Here are some related topics
 - Install via the command line
 
 ```bash
-  npm install @king-alex-d-great/secure-solidity-development-starterpack@1.0.0
+  npm i secure-smartcontract-template
 ```
 or via package.json
 
 ```json
- "@king-alex-d-great/secure-solidity-development-starterpack": "1.0.0"
+ "secure-smartcontract-template": "1.0.0"
 ```
 or fork and clone the project
 
