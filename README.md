@@ -5,6 +5,14 @@ This is a starter template to get started on writing **SECURITY-CONCIOUS** smart
 
 I became tired of always setting up projects from scratch and so I created this starter file to speed up my development process.
 
+## **Badges**
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+stable release version: ![version](https://img.shields.io/badge/version-1.0.2-blue)
+
+NPM downloads: ![downloads](https://img.shields.io/badge/downloads-150-brightgreen)
+
 ## Tech Stack
 
 - **Hardhat**
