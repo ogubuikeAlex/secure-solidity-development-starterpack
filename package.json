@@ -1,6 +1,6 @@
 {
-  "name": "secure-solidity-dev-starter-pack",
-  "version": "1.0.0",
+  "name": "secure-smartcontract-template",
+  "version": "1.0.1",
   "description": "I am tired of having to setup projects everytime, so i am creating this template to be a starter file for all other projects",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "OgubuikeAlex"
   ],
   "author": "Ogubuike Alexandra",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/king-Alex-d-great/secure-solidity-development-starterpack/issues"
   },
@@ -31,7 +31,7 @@
   "devDependencies": {
     "@chainlink/contracts": "^0.4.2",
     "@nomicfoundation/hardhat-toolbox": "^1.0.1",
-    "@nomiclabs/hardhat-etherscan": "^3.1.0",    
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
     "@openzeppelin/contracts": "^4.7.2",
     "dotenv": "^16.0.1",
     "hardhat": "^2.10.1",
@@ -41,5 +41,8 @@
   },
   "dependencies": {
     "ethers": "^5.6.9"
+  },
+  "directories": {
+    "test": "test"
   }
 }
