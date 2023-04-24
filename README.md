@@ -35,7 +35,7 @@ Here are some related topics
 or via package.json
 
 ```json
- "secure-smartcontract-template": "1.x.x"
+ "secure-smartcontract-template": "1.0.2"
 ```
 or fork and clone the project
 
