@@ -1,6 +1,6 @@
 {
   "name": "secure-smartcontract-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "I am tired of having to setup projects everytime, so i am creating this template to be a starter file for all other projects",
   "main": "index.js",
   "scripts": {
